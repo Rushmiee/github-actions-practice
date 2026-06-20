@@ -4,7 +4,7 @@
 name: Auto Linter
 
 on: 
-  push: 
+ push: 
     paths: 
     - '*.py'
 
