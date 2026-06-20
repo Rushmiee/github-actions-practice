@@ -1,4 +1,3 @@
-# This code is from flask-app-ecs
 from flask import Flask, render_template
 app = Flask(__name__)
 
@@ -10,4 +9,4 @@ def hello_world():
 
 @app.route('/health')
 def health():
-    return 'Server is up and running'
+    return 'Server is up and working fine'
